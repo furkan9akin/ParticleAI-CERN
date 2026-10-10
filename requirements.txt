@@ -1,1 +1,7 @@
 
+awkward
+jupyter
+matplotlib
+numpy
+pandas
+uproot

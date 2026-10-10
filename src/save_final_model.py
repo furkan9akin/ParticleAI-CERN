@@ -54,7 +54,7 @@ metadata = {
     "background_sample": "364352",
     "mass_used_as_feature": False,
     "classification_threshold": 0.5,
-    "evaluation_status": "Validation completed; test pending"
+    "evaluation_status": "Final held-out test completed"
 }
 
 with open(

@@ -1,0 +1,22 @@
+{
+  "model": "Gradient Boosting",
+  "dataset": "ATLAS 2025 Monte Carlo",
+  "test_events": 3000,
+  "accuracy": 0.8136666666666666,
+  "precision": 0.7759530791788857,
+  "recall": 0.882,
+  "f1": 0.8255850234009361,
+  "roc_auc": 0.8921995555555556,
+  "pr_auc": 0.863631150272665,
+  "confusion_matrix": [
+    [
+      1118,
+      382
+    ],
+    [
+      177,
+      1323
+    ]
+  ],
+  "limitations": "Balanced unweighted Monte Carlo samples; not a real collision Higgs discovery claim."
+}

@@ -1,7 +1,10 @@
-
 awkward
+joblib
 jupyter
 matplotlib
 numpy
 pandas
+scikit-learn
+scipy
 uproot
+vector

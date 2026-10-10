@@ -21,3 +21,21 @@ Thumbs.db
 
 # IDE
 .vscode/
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# CERN ROOT data files
+*.root
+
+# Generated datasets
+data/processed/*.csv
+data/processed/*.parquet
+
+# Saved machine learning models
+models/*.joblib
+models/*.pkl

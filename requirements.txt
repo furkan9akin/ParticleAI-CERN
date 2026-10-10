@@ -8,3 +8,4 @@ scikit-learn
 scipy
 uproot
 vector
+streamlit

@@ -260,6 +260,27 @@ The project also includes scripts for error analysis, real-data processing and s
 
 A detailed record of the development environment is available in `environment.txt`.
 
+### Interactive Application: ParticleAI Lab
+
+ParticleAI also includes an interactive Streamlit application that allows users to explore the trained Gradient Boosting model without retraining it.
+
+The application provides two ways to analyze events:
+
+- **Upload CSV:** Upload a CSV file containing the seven required photon features to obtain model scores and download results.
+- **Enter Photon Values:** Manually enter the transverse momentum, pseudorapidity and azimuthal angle of two photons to calculate event features and obtain a model score.
+
+Both modes support downloadable educational reports.
+
+To launch the application, run the following command from the project directory after installing the dependencies:
+
+`python -m streamlit run app/app.py`
+
+Open the local URL displayed in the terminal and select **ParticleAI Lab** from the sidebar.
+
+The trained model is included in `models/gradient_boosting_v1.joblib`, so downloading the original CERN ROOT datasets is not required to explore the existing model through the application.
+
+**Scientific note:** ParticleAI Lab is an educational tool. Its model was trained on balanced Monte Carlo simulations, and its signal-likeness scores are not calibrated Higgs boson probabilities or evidence of a particle discovery.
+
 ## 11. Project Status
 
 Completed work:
@@ -273,6 +294,7 @@ Completed work:
 - Classification error analysis
 - Final held-out test evaluation
 - Exploratory application to real ATLAS collision data
+- Interactive Streamlit application with CSV upload, manual photon inputs, model predictions and downloadable reports
 
 Future improvements may include a broader range of Monte Carlo processes, physically motivated event selection, event weighting and improved simulation-to-data comparison.
 

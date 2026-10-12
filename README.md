@@ -261,6 +261,8 @@ The project also includes scripts for error analysis, real-data processing and s
 A detailed record of the development environment is available in `environment.txt`.
 
 ### Interactive Application: ParticleAI Lab
+**Live application:** [Open ParticleAI Lab](https://particleai-cern.onrender.com/ParticleAI_Lab)
+
 
 ParticleAI also includes an interactive Streamlit application that allows users to explore the trained Gradient Boosting model without retraining it.
 

@@ -5,6 +5,21 @@
 **Author:** Furkan Akın  
 **GitHub:** [furkan9akin](https://github.com/furkan9akin)
 
+## Explore ParticleAI
+
+**Live Web Application:** [Launch ParticleAI Lab](https://particleai-cern.onrender.com/ParticleAI_Lab)
+
+**Source Code:** [ParticleAI-CERN GitHub Repository](https://github.com/furkan9akin/ParticleAI-CERN)
+
+**Research Highlights:**
+- **Dataset:** 20,000 balanced Monte Carlo events (10,000 simulated Higgs signal and 10,000 diphoton background).
+- **Best Model:** Histogram-based Gradient Boosting.
+- **Test Accuracy:** 81.37%.
+- **Test ROC-AUC:** 0.8922.
+- **Evaluation:** 3,000 previously unseen simulated test events.
+- **Interactive Features:** CSV analysis, manual photon input, model predictions, and downloadable reports.
+
+**Scientific Note:** These results describe a controlled classification experiment using simulated CERN ATLAS data. Model predictions are not confirmed Higgs boson detections.
 ## 1. Project Overview
 
 ParticleAI is a student research project exploring how machine learning can distinguish simulated Higgs boson events from background events using CERN ATLAS Open Data.
